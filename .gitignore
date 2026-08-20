@@ -1,0 +1,33 @@
+# ROMs / legally protected game data
+*.z64
+*.n64
+*.v64
+*.gb
+*.gbc
+*.gba
+*.nds
+*.3ds
+*.cia
+*.bin
+*.rom
+
+# Generated Stadium/cache files
+picked_stadium*
+stadium_overworld_test*.txt
+stadium_overworld_pick*.txt
+mod_compat/
+cache/
+generated/
+baserom*
+
+# Local test junk
+Backups/
+Notes/
+*.bak
+*.tmp
+*.log
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/

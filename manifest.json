@@ -1,0 +1,36 @@
+{
+  "id": "STADIUM_OVERWORLD_MODELS_LOCAL",
+  "name": "Stadium Overworld DX",
+  "version": "0.1.93-beta.4",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "GRAPHICS",
+  "game_version": "0.0.0-dev || >=0.1.30 <3.0.0",
+  "priority": 110,
+  "dependencies": [],
+  "optional_dependencies": [
+    "DRAMALESS_SHAPE",
+    "DRAMATIC_SHAPE",
+    "STADIUM_BATTLE_FX",
+    "FOLLOWERS_EX",
+    "PokePCFollowers_VoxelMerge",
+    "DRAMATIC_SKY_RIDE",
+    "WILDS_OF_KANTO"
+  ],
+  "required_imports": [
+    {
+      "id": "stadium_us_v10_rom",
+      "name": "Pokemon Stadium (USA) v1.0 ROM",
+      "file": "baserom.z64",
+      "format": "n64",
+      "md5": "ed1378bc12115f71209a77844965ba50"
+    }
+  ],
+  "conflicts": [],
+  "permissions": [
+    "engine_internals"
+  ],
+  "affects_link": false,
+  "description": "Beta by Pewter Crunchy. Adds Stadium-style overworld/follower Pokémon models for DRAMALESS_SHAPE v2.x. Designed to pair with STADIUM_BATTLE_FX for battles."
+}
